@@ -15,3 +15,7 @@ The base image will be named `qmk-moonlander-build:latest`
 2. Run `docker run --rm -v /tmp/latest/moonlander_custom-azerty_source:/keymap qmk-moonlander-build:latest`
 
 Your new firmware file is ready at `/tmp/latest/builded/moonlander_custom.bin`
+
+## Flash firmware
+
+Use `wally` to flash the new firmware
