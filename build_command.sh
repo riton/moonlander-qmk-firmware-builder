@@ -12,6 +12,6 @@ make moonlander:custom
 
 ls -laF moonlander_custom.bin
 
-mkdir "${NEW_KEYMAP_DIR}/builded"
+mkdir -p "${NEW_KEYMAP_DIR}/builded"
 
-cp moonlander_custom.bin "${NEW_KEYMAP_DIR}/builded/"
+cp -f moonlander_custom.bin "${NEW_KEYMAP_DIR}/builded/"
